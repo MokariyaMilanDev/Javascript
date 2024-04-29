@@ -1,4 +1,4 @@
-//// # Problem
+//// # Problem :
 
 /// Given
 // var nums = [1, 2, 3, 4, 5, 3, 2, 3, -3, -7];
@@ -18,6 +18,8 @@
 //   length: 9
 // }
 
+
+//// # Solution :
 
 var nums = [1, 2, 3, 4, 5, 3, 2, 3, -3, -7];
 var val = 4;
