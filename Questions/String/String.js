@@ -13,6 +13,14 @@ class _String{
     return this.sentence.split(" ").reverse().join(" ");
   }
 
+  countCharcters(){
+    return this.sentence.split("").length;
+  }
+
+  countWords(){
+    return this.sentence.split(" ").length;
+  }
+
   lengthOfFirstWord(){
     return this.sentence.split(" ")[0].length;
   }
@@ -23,5 +31,6 @@ class _String{
   }
 }
 
-const sen = new _String("HelloMYLong World! ohh ");
-console.log(sen.lengthOfLastWord());
+
+// const sen = new _String("Hello this is string");
+// console.log(sen.countWords());
