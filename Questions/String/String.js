@@ -1,7 +1,9 @@
 //// # String
 // # reverse() --> reverse string 
 // # lengthOfFirstWord() --> length of first word
-// # lengthOfLastWord --> length of last word
+// # lengthOfLastWord() --> length of last word
+// # countCharcters() --> count charcters of string
+// # countWords() --> count words of string
 
 
 class _String{
@@ -32,5 +34,5 @@ class _String{
 }
 
 
-// const sen = new _String("Hello this is string");
-// console.log(sen.countWords());
+const sen = new _String("Hello this is string");
+console.log(sen.countWords());
