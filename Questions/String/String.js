@@ -31,8 +31,15 @@ class _String{
     var len = this.sentence.split(" ").filter((a)=> a!=="").length;
     return this.sentence.split(" ").filter((a)=> a!=="")[len - 1].length;
   }
+
+  isPalindrome(){
+    const reversedString = this.sentence.split("").reverse().join("");
+    return this.sentence === reversedString;
+  }
 }
 
 
-const sen = new _String("Hello this is string");
-console.log(sen.countWords());
+
+
+const sen = new _String("mererem");
+console.log(sen.isPalindrome());
