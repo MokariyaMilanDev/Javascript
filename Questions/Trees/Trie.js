@@ -1,3 +1,4 @@
+
 class Trie {
   Javascript_keywords = [
     "const",
